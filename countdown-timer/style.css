@@ -1,0 +1,91 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom right, #bbe4e9, #ffb5b5);
+}
+
+h1 {
+    font-size: 1.5rem;
+    color: #24527ae2;
+    text-align: center;
+}
+
+.countdown {
+    padding: 1rem;
+    background-color: #eaf6f6d5;
+    border-radius: 10px;
+    min-width: 330px;
+}
+
+.countdown-form {
+    margin: 1rem 0;
+}
+.countdown-form label {
+    color: #24527ae2;
+    font-weight: 500;
+}
+.countdown-form input {
+    padding: 0.4rem;
+    font-size: 1.1rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.865);
+    color: #24527a;
+}
+.countdown-form .controls {
+    text-align: center;
+}
+.countdown-form button {
+    font-size: 1.1rem;
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    border: none;
+    background-color: rgb(229, 37, 75);
+    color: rgba(255, 255, 255, 0.772);
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.5s;
+    display: none;
+}
+.countdown-form button:hover {
+    background-color: rgb(233, 61, 95);
+}
+.countdown-form button.show{
+    display: inline-block;
+}
+
+.display {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.display .time {
+    font-size: 2.5rem;
+    font-weight: 800;
+    background-color: rgb(138, 222, 11);
+    color: rgba(255, 255, 255, 0.772);
+    border-radius: 5px;
+    display: block;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+.display h3 {
+    font-size: 0.8rem;
+    font-weight: 100;
+    color: #24527ae2;
+    margin-bottom: 0px;
+    text-align: center;
+}
