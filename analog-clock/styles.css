@@ -23,8 +23,8 @@ body {
 
 .clock::after {
     content: "";
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    height: 10px;
     background-color: rgb(56, 56, 56);
     position: absolute;
     top: 50%;
@@ -44,17 +44,17 @@ body {
 }
 .clock .hand.hour {
     width: 10px;
-    height: 30%;
+    height: 25%;
     background-color: rgb(56, 56, 56);
 }
 .clock .hand.minute {
     width: 6px;
-    height: 40%;
+    height: 35%;
     background-color: rgb(56, 56, 56);
 }
 .clock .hand.second {
     width: 2px;
-    height: 40%;
+    height: 35%;
     background-color: rgb(226, 35, 35);
 }
 
