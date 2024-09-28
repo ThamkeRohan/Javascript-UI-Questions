@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Mortgage Calculator</title>
+</head>
+<body>
+    <h1>Mortgage Calculator</h1>
+    <form class="form">
+        <div>
+            <label for="loan-amount">Loan Amount</label>
+            <input type="number" name="loan-amount" id="loan-amount" value="100000">
+        </div>
+
+        <div>
+            <label for="loan-term">Loan Term (years)</label>
+            <input type="number" name="loan-term" id="loan-term" value="30">
+        </div>
+
+        <div>
+            <label for="interest-rate">Interest Rate (%)</label>
+            <input type="number" name="interest-rate" id="interest-rate" value="3">
+        </div>
+
+        <button>Calculate</button>
+    </form>
+
+    <div class="result">
+        <div>
+            Monthly Payment Amount: 
+            <strong class="monthly-payment"></strong>
+        </div>
+        <div>
+            Total Payment Amount: 
+            <strong class="total-payment"></strong>
+        </div>
+        <div>
+            Total Interest Paid: 
+            <strong class="total-interest"></strong>
+        </div>
+    </div>
+</body>
+</html>
