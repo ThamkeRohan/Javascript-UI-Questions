@@ -1,0 +1,17 @@
+.tab {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+.tab.active {
+    color: blueviolet;
+    border: 1px solid blueviolet;
+}
+
+.content {
+    display: none;
+}
+.content.active {
+    display: block;
+}
